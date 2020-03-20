@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
     private String TAG = "MainActivity";
     String pathName = "/mnt/sdcard/DCIM/Camera/IMG_20200110_104110.jpg";
     SurfaceView surfaceView;
+    CustomView customView;
 
     String[] permissions = new String[]{Manifest.permission.READ_PHONE_STATE, Manifest.permission.WRITE_EXTERNAL_STORAGE};
     List<String> mPermissionList = new ArrayList<>();
@@ -41,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
         mainBinding.testView.setText("视图绑定");
         imageView = mainBinding.ivPic;
         surfaceView = mainBinding.sfPic;
+        customView = mainBinding.ctPic;
         setContentView(mainBinding.getRoot());
         //安卓动态权限申请
         //权限确认

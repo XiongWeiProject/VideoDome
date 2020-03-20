@@ -30,6 +30,14 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/iv_pic"></SurfaceView>
+    <com.example.vodio.CustomView
+        android:id="@+id/ct_pic"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sf_pic">
+    </com.example.vodio.CustomView>
 
 
 
